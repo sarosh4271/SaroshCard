@@ -11,6 +11,8 @@
 		F860333A2782DC80007FCF93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86033392782DC80007FCF93 /* ContentView.swift */; };
 		F860333C2782DC81007FCF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F860333B2782DC81007FCF93 /* Assets.xcassets */; };
 		F860333F2782DC81007FCF93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F860333E2782DC81007FCF93 /* Preview Assets.xcassets */; };
+		F86033472782E3B8007FCF93 /* VujahdayScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F86033462782E3B7007FCF93 /* VujahdayScript-Regular.ttf */; };
+		F860334927830BF4007FCF93 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F860334827830BF4007FCF93 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F86033392782DC80007FCF93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F860333B2782DC81007FCF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F860333E2782DC81007FCF93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F86033462782E3B7007FCF93 /* VujahdayScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VujahdayScript-Regular.ttf"; sourceTree = "<group>"; };
+		F860334827830BF4007FCF93 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		F86033362782DC80007FCF93 /* SaroshCard */ = {
 			isa = PBXGroup;
 			children = (
+				F86033452782E2F5007FCF93 /* fonts */,
 				F86033372782DC80007FCF93 /* SaroshCardApp.swift */,
 				F86033392782DC80007FCF93 /* ContentView.swift */,
 				F860333B2782DC81007FCF93 /* Assets.xcassets */,
 				F860333D2782DC81007FCF93 /* Preview Content */,
+				F860334827830BF4007FCF93 /* InfoView.swift */,
 			);
 			path = SaroshCard;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				F860333E2782DC81007FCF93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F86033452782E2F5007FCF93 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F86033462782E3B7007FCF93 /* VujahdayScript-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86033472782E3B8007FCF93 /* VujahdayScript-Regular.ttf in Resources */,
 				F860333F2782DC81007FCF93 /* Preview Assets.xcassets in Resources */,
 				F860333C2782DC81007FCF93 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F860333A2782DC80007FCF93 /* ContentView.swift in Sources */,
+				F860334927830BF4007FCF93 /* InfoView.swift in Sources */,
 				F86033382782DC80007FCF93 /* SaroshCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
